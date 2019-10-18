@@ -409,7 +409,7 @@ input[type="search"] {
       text-shadow: none !important; } }
 
 a {
-  color: #767676;
+  color: #8f0707;
   text-decoration: none;
   transition: color .2s, opacity .2s, outline .2s; }
   a:focus, a:hover {
@@ -660,7 +660,7 @@ body > a[href="#content"] {
   padding: 1px;
   position: relative; }
   .wrapper a {
-    color: #767676; }
+    color: #2409be; }
     .wrapper a:focus, .wrapper a:hover {
       color: #000; }
 
@@ -790,7 +790,7 @@ main {
     margin: 0;
     padding: 0 1rem 1rem 1rem; }
   .banner nav {
-    background: #000;
+    background: rgb(209, 208, 208);
     color: #fff;
     position: relative; }
     .banner nav:before, .banner nav:after {
@@ -811,7 +811,7 @@ main {
     .banner nav a {
       color: #767676;
       display: block;
-      line-height: 2.4;
+      line-height: 1.8;
       padding: 0 1rem;
       white-space: pre; }
       .banner nav a:focus, .banner nav a:hover {
@@ -856,12 +856,12 @@ main {
     -o-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background: #000;
+    background: rgb(209, 208, 208);
     border: 0;
     border-radius: 0;
     color: #fff;
     cursor: pointer;
-    line-height: 2.4;
+    line-height: 1.8;
     padding: 0 1rem; }
 
 .contentinfo {
@@ -887,6 +887,7 @@ form.search input {
   word-wrap: break-word; }
   .widgets aside h2 {
     font-size: 100%;
+    border-bottom: 2px solid #b4018d;
     margin: 1rem 0; }
 .widgets.columns-1 aside {
   float: none; }
@@ -928,7 +929,7 @@ form.search input {
     .post-webcomic nav.above {
       margin: 1px 0 0; }
     .post-webcomic nav a {
-      color: #767676;
+      color: #b40c0c;
       font-size: 200%; }
       .post-webcomic nav a:focus, .post-webcomic nav a:hover {
         color: #fff; }
@@ -1042,9 +1043,16 @@ form.search input {
   display: inline-block;
   margin: 0 1rem 1rem 0; }
 
+  .more-link {
+    float: right;
+    margin-top: 10px;
+   }
+
 .more-link:after {
   font: 100%/1 awesome;
-  content: '\f138'; }
+  content: '\f138';
+ }
+  
 
 nav.post-navigation, nav.posts-navigation, nav.image-navigation, nav.comment-navigation {
   clear: both;

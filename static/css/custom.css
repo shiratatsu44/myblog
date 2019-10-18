@@ -113,3 +113,34 @@ iframe {
         display: none;
     }
 }
+
+/*** Button ***/
+.btn {
+	font-weight: 700;
+	padding: 5px 10px;
+	white-space: nowrap;
+	color: #fff;
+    background: #fd4c55;
+}
+
+.btn:hover {
+	color: #fff;
+    background: #906ae7;
+}
+
+.widget__link--taglist {
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+	padding: 5px 10px;
+	margin: 0 4px 8px 0;
+	white-space: nowrap;
+	text-transform: uppercase;
+    background: #fdcdca;
+    
+    }
+    .site {
+        color: #fff;
+        background: #020202;
+    }

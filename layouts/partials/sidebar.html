@@ -14,7 +14,7 @@
 
     <aside class="widget widget_tag_cloud">
         <h2>{{ T "tags_title" }}</h2>
-        <div class="tagcloud">
+        <div class="widget__link--taglist ">
             {{- range $name, $items := .Site.Taxonomies.tags -}}
             <a class="tag-cloud-link" href="{{- "tags/" | relLangURL -}}{{- $name | urlize | lower -}}" title="{{ $name }}" style="font-size: 12pt;">{{ .Page.Title }}</a>&emsp;
             {{- end }}
