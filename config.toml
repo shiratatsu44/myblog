@@ -45,5 +45,5 @@ summaryLength=150
   filename = "sitemap.xml"  # c.f. https://gohugo.io/templates/sitemap-template/#configure-sitemap-xml
 
 [params.sns]
-github = "shiratatsu44"
-twitter = "jxUQEj9XPCmPJ74"
+  github = "shiratatsu44"
+  twitter = "jxUQEj9XPCmPJ74"

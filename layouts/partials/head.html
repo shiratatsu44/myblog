@@ -20,4 +20,27 @@
     <link rel='stylesheet' href='{{ "css/style.css" | absURL }}' type='text/css' media='all' />
     <link rel='stylesheet' href='{{ "css/custom.css" | absURL }}' type='text/css' media='all' />
     {{ template "_internal/google_analytics.html" . }}    
+    {{ if .Page.IsHome }}
+    <title>{{ .Site.Title }}</title>
+    <meta property="og:title"       content="{{ .Site.Title }}" />
+    <meta property="og:type"        content="website" />
+    {{ else }}
+    <title>{{ .Site.Title }} :: {{ .Title }}</title>
+    <meta property="og:title"       content="{{ .Site.Title }} :: {{ .Title }}" />
+    <meta property="og:type"        content="article" />
+    {{ end }}
+    <meta property="og:url"         content="{{ .Permalink }}" />
+    <meta property="og:description" content="{{ .Description }}" />
+    {{ range $ext := ( slice "png" "jpg" "jpeg" ) }}
+    {{ $ogImagePath := ( delimit ( slice $.File.Dir $.File.TranslationBaseName "/og" $ext ) "" "." ) }}
+    {{ if ( fileExists ( print "static/" $ogImagePath ) ) }}
+    <meta property="og:image"       content="/img/kabu.png" />
+    <meta property="twitter:image"  content="/img/kabu.png" />
+    <meta property="twitter:image:src"  content="/img/kabu.png" />
+    {{ end }}
+    {{ end }}
+    <meta name="twitter:card"       content="summary" />
+    {{ with $.Site.Params.Twitter }}
+    <meta name="twitter:site"       content="@{{ . }}" />
+    {{ end }}
 </head>
