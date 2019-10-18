@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://shiratatsu.com"
 title = "株とプログラミングのブログ"
 author = "Author"
 theme = "inkblotty"
@@ -12,7 +12,7 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "UA-149283372-3"
 
 summaryLength=150
 
@@ -43,3 +43,7 @@ summaryLength=150
 
 [sitemap]
   filename = "sitemap.xml"  # c.f. https://gohugo.io/templates/sitemap-template/#configure-sitemap-xml
+
+[params.sns]
+github = "shiratatsu44"
+twitter = "jxUQEj9XPCmPJ74"
