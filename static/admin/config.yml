@@ -1,0 +1,28 @@
+backend:
+  name: github
+  repo: shiratatsu44/myblog
+  branch: master
+
+#publish_mode: editorial_workflow
+
+media_folder: "static/img"
+public_folder: "/img"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    folder: "content/blog"
+    create: true
+    #slug: "{{fields.slug}}"
+    slug: "{{year}}{{month}}{{day}}-{{permalink}}" 
+    identifier_field: title
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Descreption", name: "description", widget: "text", required: false}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
+      - {label: "Category", name: "categories", widget: "list", required: false}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      #- {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
