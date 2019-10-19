@@ -790,7 +790,8 @@ main {
     margin: 0;
     padding: 0 1rem 1rem 1rem; }
   .banner nav {
-    background: rgb(209, 208, 208);
+    background: rgb(75, 75, 75);
+    border-top: 1px solid #fff;
     color: #fff;
     position: relative; }
     .banner nav:before, .banner nav:after {
@@ -809,9 +810,9 @@ main {
       right: 1rem;
       top: 0; }
     .banner nav a {
-      color: #767676;
+      color: #fff;
       display: block;
-      line-height: 1.8;
+      line-height: 2.2;
       padding: 0 1rem;
       white-space: pre; }
       .banner nav a:focus, .banner nav a:hover {
@@ -837,7 +838,7 @@ main {
       opacity: 1;
       visibility: visible; }
     .banner li:focus > a, .banner li:hover > a, .banner li.current-menu-item > a, .banner li.current_page_item > a, .banner li.current_page_ancestor > a, .banner li.current-menu-ancestor > a {
-      color: #fff; }
+      color: rgb(186, 186, 186); }
   .banner .menu-item-has-children > a:after,
   .banner .page_item_has_children > a:after {
     font: 100%/1 awesome;
@@ -856,14 +857,17 @@ main {
     -o-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-    background: rgb(209, 208, 208);
+    background: rgb(75, 75, 75);
     border: 0;
     border-radius: 0;
-    color: #767676;
+    color: #fff;
     cursor: pointer;
-    line-height: 1.8;
+    line-height: 2.2;
     padding: 0 1rem; }
 
+    .banner select:focus, .banner select:hover{
+      background-color: rgb(112, 112, 112)
+    }
 .contentinfo {
   background: #000;
   color: #fff;
