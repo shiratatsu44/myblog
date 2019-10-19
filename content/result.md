@@ -1,27 +1,28 @@
 +++
 title = "Result"
-description = "Hugo, the world’s fastest framework for building websites"
+description = "投資戦績"
 date = "2019-10-19"
-author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## 株（年別）
+### 2017年
+成績：-948,756円  
+一言：株バブルの年だったのになんで負けたのか・・・  
+　　　→初心者鉄板の信用全力からの泣く泣く損切りをやらかしたせい
+### 2018年
+成績：695,516円  
+一言：指数が軟調だったわりには頑張ったと思う  
+　　　年末の暴落相場がなければ3桁近い収支だったのに・・・
+### 2019年
+成績：1,433,769円  
+一言：収支は良いが相場環境に助けられたおかげな気もする  
+　　　取りこぼしがもっと少なければ、収支も倍くらいになってたかも
 
-Hugo makes use of a variety of open source projects including:
+## 収支合計
+成績：+1,180,529円　　※税金は含めていません。  
+一言：正直物足りないけど小遣い稼ぎとしては十分な稼ぎとは思う  
+　　　投資に回せる待機資金はまだ余力があるので短気的な稼ぎよりも  
+　　　再現性の高いトレードの習得を第一目標としたい
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremelly fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
-
-
+## その他
+株以外は今のところ手を付けていません。2017年にFXと仮装通貨を少し触りましたがすぐやめました。（5万円ほどマイナスだった気がする。。）
