@@ -14,7 +14,7 @@ collections:
     folder: "content/post"
     create: true
     #slug: "{{fields.slug}}"
-    #slug: "{{year}}{{month}}{{day}}-{{permalink}}" 
+    slug: "{{year}}{{month}}{{day}}-{{permalink}}" 
     identifier_field: title
     fields:
       - {label: "Title", name: "title", widget: "string"}
