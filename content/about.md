@@ -1,20 +1,32 @@
 +++
 title = "About"
-description = "Hugo, the world’s fastest framework for building websites"
-date = "2019-02-28"
+description = "当ブログの概要"
+date = "2019-10-19"
 aliases = ["about-us","about-hugo","contact"]
 author = "Hugo Authors"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+## ブログテーマ
+投資（おそらく殆ど株）とプログラミング（ツール作成やトレード関係の自動化）を中心に記事を書きます。  
+ブログを始める理由が成長のための記録なので投資成績や保有スキルは基本的に公開していくつもりです。
 
-Hugo makes use of a variety of open source projects including:
+## サイトマップ
+当ブログのページ構成は以下となります。
+### BLOG
+記事の一覧ページです。
+### ABOUT
+本ページ。当ブログに関する概要情報。
+### RESULT
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+### SKILL
+
+## プロフィール
+* 元独立系SIのユーザ系ITエンジニア
+* 仕事は企画・要件定義がメインなので最近はコードを書くことがほぼないです  
+* 前職での開発経験と今もちょこちょこ勉強はしているので人並みには開発出来ます（出来るはず）
+* 投資を始めたきっかけは小遣いを増やすため。嫁が鉄壁なので家の貯金は一切投資に回せません
+* 2017年2月からスタート。初年度に3桁近い損失を出して絶望するが去年・今年で全て取り返して収支黒字化
+
 
 Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
 

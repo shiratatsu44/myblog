@@ -26,10 +26,28 @@ summaryLength=150
   archive = "archives"
 
 [[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
   identifier = "about"
   name = "About"
   url = "/about/"
   weight = 10
+
+[[menu.main]]
+  identifier = "result"
+  name = "Result"
+  url = "/result/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "skill"
+  name = "Skill"
+  url = "/skill/"
+  weight = 30
 
 [Params]
   readmore = true
