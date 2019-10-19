@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "株とプログラミングのブログ"
+title = "IT系投機家の市場分析"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
