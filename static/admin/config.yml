@@ -3,7 +3,7 @@ backend:
   repo: shiratatsu44/myblog
   branch: master
 
-publish_mode: editorial_workflow
+#publish_mode: editorial_workflow
 
 media_folder: "static/img"
 public_folder: "/img"
@@ -14,7 +14,7 @@ collections:
     folder: "content/post"
     create: true
     #slug: "{{fields.slug}}"
-    #slug: "{{year}}{{month}}{{day}}-{{permalink}}" 
+    slug: "{{year}}{{month}}{{day}}-{{permalink}}" 
     identifier_field: title
     fields:
       - {label: "Title", name: "title", widget: "string"}
