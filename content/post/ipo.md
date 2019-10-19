@@ -1,10 +1,10 @@
 ---
-title: ipo
+title: IPO（2019/10/21〜2019/11/21）
 description: null
 date: 2019-10-19T12:44:07.260Z
 thumbnail: null
 categories:
-  - ipo
+  - IPO
 tags: null
 permalink: ipo
 ---
@@ -54,5 +54,6 @@ permalink: ipo
 |
 |予想PBR 2.75倍\(2019\/10単・参考BPS:811.98・想定価格2,230円ベース\) |
 |予想配当 0.00円\(2019\/10\) |
+
 
 
