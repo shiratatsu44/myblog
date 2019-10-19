@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "イナゴリズムを分析するブログ"
+title = "イナゴリズム分析ブログ"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
