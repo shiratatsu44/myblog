@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "エンジニア的に市場と向き合う"
+title = "社畜からの脱却"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
@@ -42,6 +42,12 @@ summaryLength=150
   name = "Result"
   url = "/result/"
   weight = 20
+
+[[menu.main]]
+  identifier = "study"
+  name = "Study"
+  url = "/study/"
+  weight = 30
 
 [Params]
   readmore = true
