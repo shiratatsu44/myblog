@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "ゼロからの機械学習"
+title = "エンジニア的に市場と向き合う"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
@@ -37,6 +37,11 @@ summaryLength=150
   url = "/about/"
   weight = 10
 
+[[menu.main]]
+  identifier = "result"
+  name = "Result"
+  url = "/result/"
+  weight = 20
 
 [Params]
   readmore = true
