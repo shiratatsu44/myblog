@@ -23,6 +23,6 @@ collections:
       - {label: "Featured Image", name: "thumbnail", widget: "image", required: false}
       - {label: "Category", name: "categories", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      #- {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string", required: true}
       #- {label: "Slug", name: "slug", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
