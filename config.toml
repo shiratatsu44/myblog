@@ -43,12 +43,6 @@ summaryLength=150
   url = "/result/"
   weight = 20
 
-[[menu.main]]
-  identifier = "study"
-  name = "Study"
-  url = "/study/"
-  weight = 30
-
 [Params]
   readmore = true
 
