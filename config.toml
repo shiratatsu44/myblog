@@ -59,3 +59,6 @@ summaryLength=150
 [params.sns]
   github = "shiratatsu44"
   twitter = "jxUQEj9XPCmPJ74"
+
+pygmentsCodefences = true
+pygmentsUseClasses = true
