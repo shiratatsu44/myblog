@@ -138,7 +138,7 @@ iframe {
 	white-space: nowrap;
 	text-transform: uppercase;
     background: #fdcdca;
-    
+    border: 1px solid #fff;
     }
     .site {
         color: #fff;
