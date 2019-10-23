@@ -137,12 +137,10 @@ iframe {
 	margin: 0 4px 8px 0;
 	white-space: nowrap;
 	text-transform: uppercase;
-    background: #fdcdca;
-    border: 1px solid #fff;
     }
 
     .tag-cloud-link {
-        padding: 7px;
+        padding: 6px;
         background-color: #fdcdca;
         border: 1px solid #000;
         }
