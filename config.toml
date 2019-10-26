@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "ランダムウォークと機械学習"
+title = "TatsuNote"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
