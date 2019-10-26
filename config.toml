@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "データサイエンスを市場で学ぶ"
+title = "ランダムウォークと機械学習"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
