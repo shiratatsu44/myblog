@@ -1,5 +1,5 @@
 baseURL = "https://shiratatsu.com"
-title = "ただの戯れ言　〜ネット×テレビを考える〜"
+title = "TatsuNote"
 author = "Author"
 theme = "inkblotty"
 paginate = 10
@@ -36,12 +36,6 @@ summaryLength=150
   name = "About"
   url = "/about/"
   weight = 10
-
-[[menu.main]]
-  identifier = "result"
-  name = "Result"
-  url = "/result/"
-  weight = 20
 
 [Params]
   readmore = true
